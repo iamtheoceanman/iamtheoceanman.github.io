@@ -1,0 +1,133 @@
+@font-face
+{
+    font-family: copperplateGothicHeavy;
+    src: url(ttf/CopperplateCC-Heavy.ttf);
+}
+@font-face
+{
+    font-family: copperplateGothicBold;
+    src: url(ttf/CopperplateCC-Bold.ttf);
+}
+/* font info found at https://www.w3schools.com/css/css3_fonts.asp */
+/* font fount at https://cowboycollective.cc/zip/CopperplateCC */
+body
+{
+    background-color: #FAF9F6;
+    font-family:copperplateGothicHeavy;
+    text-align: center;
+    font-size: 20px;
+    color:#000;
+    /* margin info found at https://www.w3schools.com/css/css_margin.asp */
+}
+.title
+{
+    font-family:copperplateGothicBold;
+}
+.pagetitle
+{
+    font-size:60px;
+}
+.subtitle
+{
+    font-size:40px;
+}
+.textbody
+{
+    text-align:left;
+    margin-left:10%;
+    margin-right:10%;
+}
+.plainlink
+{
+    text-decoration:none;
+    color:black;
+}
+.plainlink:hover
+{
+    color:#666;
+}
+.container-fluid:
+{
+    padding:0;
+    margin:0;
+}
+.navbar
+{
+    padding:0;
+}
+.navbar-brand
+{
+    padding:16px 8px;
+}
+.nav-link
+{
+    color:#FAF9F6;
+    padding:16px 16px;
+}
+
+.navbar a:hover
+{
+    color:#000;
+    background-color:#ff1616;
+}
+.rainbow {
+  text-align: center;
+  animation: colorRotate .5s linear 0s infinite;
+}
+
+@keyframes colorRotate
+{
+  from
+  {
+    color: #6666ff;
+  }
+  10%
+  {
+    color: #0099ff;
+  }
+  50%
+  {
+    color: #00ff00;
+  }
+  75%
+  {
+    color: #ff3399;
+  }
+  100%
+  {
+    color: #6666ff;
+  }
+}
+.slide
+{
+    height:calc(75vw/16*9);
+}
+.carousel-item img
+{
+    height:calc(75vw/16*9);
+    width:auto;
+    margin-left:auto!important;
+    margin-right:auto!important;
+}
+.stats
+{
+    width:50vw;
+}
+td
+{
+    width:50vw;
+    vertical-align:middle;
+}
+.footer
+{
+    font-size: large;
+}
+.subfooter
+{
+    font-size: small;
+}
+#fullscreen
+{
+    width:65vw;
+    height:auto;
+}
