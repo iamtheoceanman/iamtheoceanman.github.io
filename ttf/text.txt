@@ -1,0 +1,1 @@
+Contains ttf files for Copperplate Gothic Bold and Copperplate Gothic Heavy fonts
