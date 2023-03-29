@@ -1,1 +1,1 @@
-# iamtheoceanman.com
+# iamtheoceanman.github.io
